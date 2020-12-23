@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CoalShastra</string>
+    <string name="guest">Continue as guest</string>
+    <string name="buyCoal">Want to Buy Coal?</string>
+</resources>
