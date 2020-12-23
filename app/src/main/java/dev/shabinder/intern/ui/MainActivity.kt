@@ -17,7 +17,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
     }
 
-    fun implementationRequired(v: View){
+    fun implementationRequired(view: View){
         Toast.makeText(this,"Implementation Required!", Toast.LENGTH_SHORT).show()
+    }
+
+    fun goBack(view: View) {
+        onBackPressed()
     }
 }

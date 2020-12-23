@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+import dev.shabinder.intern.Adapter
 import dev.shabinder.intern.databinding.FragmentOffersBinding
 
 class OffersFragment : Fragment() {
@@ -17,7 +18,13 @@ class OffersFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentOffersBinding.inflate(layoutInflater)
+        binding = FragmentOffersBinding.inflate(layoutInflater).apply {
+            /*
+            * Temp Adapter just for Demonstration
+            * */
+            recyclerView.adapter = Adapter()
+
+        }
         return binding.root
     }
 }

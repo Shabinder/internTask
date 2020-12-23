@@ -5,6 +5,8 @@
     <color name="colorPrimaryDark">#1B51BE</color>
     <color name="colorAccent">#D4DEF1</color>
     <color name="transparent">#00FFFFFF</color>
+    <color name="backAlt">#EEF3F7</color>
+    <color name="lightGrey">#FDFDFD</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="primaryVariant">#00838F</color>
