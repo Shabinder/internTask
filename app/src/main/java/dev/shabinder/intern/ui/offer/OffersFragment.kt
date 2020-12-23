@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import dev.shabinder.intern.Adapter
+import dev.shabinder.intern.R
 import dev.shabinder.intern.databinding.FragmentOffersBinding
 
 class OffersFragment : Fragment() {
@@ -22,7 +23,7 @@ class OffersFragment : Fragment() {
             /*
             * Temp Adapter just for Demonstration
             * */
-            recyclerView.adapter = Adapter()
+            recyclerView.adapter = Adapter(R.layout.offer_item)
 
         }
         return binding.root
